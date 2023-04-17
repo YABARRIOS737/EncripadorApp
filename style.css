@@ -69,6 +69,7 @@
     width: 80%;
     left: 12%;
     top: 82%;
+    
 }
 
 .btn-encriptar {
@@ -84,6 +85,7 @@
     line-height: 19px;
     text-align: center;
     color: #fff;
+    margin-right: 0.5%;
 }
 
 .btn-desencriptar {
@@ -104,6 +106,7 @@
     line-height: 19px;
     text-align: center;
     color: #0a3871;
+    margin-left: 0.5%;
 }
 
 .btn-desencriptar:hover,

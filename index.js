@@ -21,7 +21,7 @@ function encriptar() {
     tituloMensaje.textContent = "Ningún mensaje fué encontrado";
     parrafo.textContent = "Debes ingresar algún texto que deseas encriptar o desencriptar";
       "Debes ingresar algún texto que deseas encriptar o desencriptar";
-    alert("Debes ingresar algún texto");
+    swal("Ooops!", "Debes ingresar algún texto");
   }
 }
 
@@ -30,7 +30,7 @@ function desencriptar() {
   let tituloMensaje = document.getElementById("titulo-mensaje");
   let parrafo = document.getElementById("parrafo");
   let caricatura = document.getElementById("caricatura");
-  
+
   let textoCifrado = texto
     .replace(/enter/gi, "e")
     .replace(/imes/gi, "i")
@@ -47,6 +47,6 @@ function desencriptar() {
     caricatura.src = "./img/imagen1.png";
     tituloMensaje.textContent = "Ningún mensaje fué encontrado";
     parrafo.textContent = "Debes ingresar algún texto que deseas encriptar o desencriptar";
-    alert("Debes ingresar algún texto");
+    swal("Ooops!", "Debes ingresar algún texto");
   }
 }
